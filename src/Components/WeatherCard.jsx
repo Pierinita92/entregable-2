@@ -18,7 +18,7 @@ const WeatherCard = ({weather, temps, isCelsius, changeUnitTemp}) => {
         <li><b className='weather_listSub'>Pressure:</b> {weather?.main.pressure} hPa</li>
       </ul>
       </div>
-      <button className='weather_button' onClick={changeUnitTemp}> &deg;C &#8660; &deg;F</button>
+      <button className='weather_button' onClick={changeUnitTemp}> {isCelsius ? "Change °F" : "Change °C"}</button>
     </section>
   )
 }
