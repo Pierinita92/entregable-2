@@ -1,10 +1,10 @@
 .weather_container {
-  background-color: rgb(155, 220, 240);
+  background-color: rgba(221, 226, 149, 0.20);
   padding: 15px;
   border-radius: 10px;
   max-width: 600px;
   position: relative;
-  box-shadow: 1px 1px 18px rgb(131, 126, 126);
+  box-shadow: 1px 1px 18px rgb(27, 27, 66);
   text-align: center;
 }
 
@@ -72,5 +72,7 @@
 }
 
 .weather_button:hover {
-  transform: scale(1.2);
+  transform: scale(1.5);
+  color: rgb(14, 14, 66);
+  background-color: rgb(118, 153, 219);
 }
