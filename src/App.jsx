@@ -37,7 +37,7 @@ function App() {
             const fahrenheit = (celsius * (9/5) + 32).toFixed(2);
             const newTemps ={ celsius, fahrenheit }
             setTemps(newTemps)
-          }, 1000)
+          }, 500)
         })
         .catch(err => console.log(err))
     }
