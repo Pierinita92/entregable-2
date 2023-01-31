@@ -1,0 +1,11 @@
+.App {
+  min-height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 20px;
+  min-height: 100vh;
+}
+

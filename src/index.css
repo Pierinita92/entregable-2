@@ -1,0 +1,18 @@
+body {
+  margin: 0%;
+  background-image: url(https://thumbs.gfycat.com/AdmirableExhaustedIchidna-size_restricted.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+img{
+  width: 100%;
+}

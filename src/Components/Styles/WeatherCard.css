@@ -1,0 +1,76 @@
+.weather_container {
+  background-color: rgb(155, 220, 240);
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 600px;
+  position: relative;
+  box-shadow: 1px 1px 18px rgb(131, 126, 126);
+  text-align: center;
+}
+
+.weather_tittle{
+  text-align: center;
+  color: rgb(43, 43, 138);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 5%;
+}
+
+.weather_block{
+  display: grid;
+  gap: 0rem;
+  text-align: center;
+  justify-items: center;
+  margin-top: -15%;
+}
+
+.weather_block1{
+  display: flex;
+  margin-top: -10%;
+}
+
+.weather_img{
+  text-align: center;
+  font-size: 150px;
+}
+
+.weather_grades{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(43, 43, 138);
+  margin-top: -20%;
+}
+
+.weather_city{
+  font-size: 20px;
+  margin-top: 10%;
+  color: rgb(43, 43, 138);
+  text-align: center;
+}
+
+.weather_list {
+  list-style: none;
+  text-align: left;
+  font-size: 20px;
+}
+
+.weather_listSub{
+  color: rgb(24, 24, 78);
+}
+
+.weather_button{
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+  margin: 0 0 10px 10px;
+  transition: transform 300ms ease;
+  margin-top: 5%;
+  background-color: rgb(14, 14, 66);
+  color: white;
+}
+
+.weather_button:hover {
+  transform: scale(1.2);
+}
