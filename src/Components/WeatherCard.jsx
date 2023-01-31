@@ -12,7 +12,7 @@ const WeatherCard = ({weather, temps, isCelsius, changeUnitTemp}) => {
       <div className='weather_block1'>
       <h2 className='weather_city'>{weather?.name}, {weather?.sys.country}</h2>
       <ul className='weather_list'>
-        <li><b className='weather_listSub'>"{weather?.weather[0].main}, {weather?.weather[0].description}"</b></li>
+        <li><b className='weather_listSub'>{weather?.weather[0].main}, {weather?.weather[0].description}</b></li>
         <li><b className='weather_listSub'>Wind Speed:</b> {weather?.wind.speed} m/s</li>
         <li><b className='weather_listSub'>Clouds:</b> {weather?.clouds.all} %</li>
         <li><b className='weather_listSub'>Pressure:</b> {weather?.main.pressure} hPa</li>
